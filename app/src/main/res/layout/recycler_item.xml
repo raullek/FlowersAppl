@@ -32,6 +32,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/flower_price"
         android:layout_toRightOf="@+id/flower_image"
         android:layout_below="@id/flower_category"
         android:text="Price"
