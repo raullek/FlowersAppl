@@ -6,7 +6,7 @@ import android.arch.persistence.room.RoomDatabase;
 import com.example.flowersapplication.local.dao.FlowersDao;
 import com.example.flowersapplication.local.entities.FlowerEntity;
 
-@Database(entities = FlowerEntity.class,version = 1,exportSchema = false)
+@Database(entities = FlowerEntity.class,version = 2,exportSchema = false)
 public abstract class LocalDataSource extends RoomDatabase {
 
     public abstract FlowersDao getFlowerDao();

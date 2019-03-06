@@ -42,7 +42,7 @@ public class ApplicationModule {
     @Provides
     @ApplicationScope
     public LocalDataSource providesRoomDataSource () {
-        return Room.databaseBuilder(application,LocalDataSource.class,"flowers_database")
+        return Room.databaseBuilder(application,LocalDataSource.class,"flowers_database2")
                 .build();
     }
     @Provides

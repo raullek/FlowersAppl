@@ -1,5 +1,6 @@
 package com.example.flowersapplication.remote;
 
+import com.example.flowersapplication.local.entities.FlowerEntity;
 import com.example.flowersapplication.remote.model.Flowers;
 
 import java.util.List;
@@ -16,7 +17,7 @@ public class RemoteDataSource {
         this.mFlowersService = mFlowersService;
     }
 
-    public Flowable<List<Flowers>> getFlowersFromApi (){
+    public Flowable<List<FlowerEntity>> getFlowersFromApi (){
         return mFlowersService.getFlowersFromApi();
     }
 

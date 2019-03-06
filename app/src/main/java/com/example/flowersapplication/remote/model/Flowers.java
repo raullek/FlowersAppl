@@ -26,8 +26,7 @@ public class Flowers {
         private Integer productId;
 
         public String getCategory() {
-            return category;
-        }
+            return category;        }
 
         public void setCategory(String category) {
             this.category = category;

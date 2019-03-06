@@ -60,7 +60,7 @@ public class FlowersAdapter extends RecyclerView.Adapter<FlowersAdapter.FlowersV
         return mList.size();
     }
 
-    public void SetItems (List<FlowerEntity> mList){
+    public void setItems (List<FlowerEntity> mList){
         if (mList!=null&& !mList.isEmpty()){
             this.mList = mList;
             notifyDataSetChanged();
